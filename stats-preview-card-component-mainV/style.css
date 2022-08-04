@@ -1,0 +1,95 @@
+body{
+    background: rgb(47, 47, 47);
+    color: aliceblue;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.card{
+    width: 1090px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    background: rgb(0, 0, 67);
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 50px; */
+}
+
+.card-text{
+    flex: 50%;
+    margin-left: 50px;
+    margin-right: 50px;
+    /* position: relative; */
+}
+
+
+.secondary{
+    margin-top: -20px;
+}
+
+.txt{
+    display: flex;
+    margin-top: 50px;
+}
+
+.card-img{
+    display: flex;
+    flex: 50%;
+}
+
+.stats{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    
+}
+
+.stats h1{
+    margin-right: 10px;
+}
+
+
+img{
+    height: 100%;
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+@media ( max-width: 800px ) {
+    .card {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 80%;
+        height: 100%;
+        
+    }
+
+    img{
+
+        border-bottom-right-radius: 0px;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+
+
+    .stats{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .stat{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card-text{
+        text-align: center;
+    }
+}
