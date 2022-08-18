@@ -17,6 +17,11 @@
     background-color: hsl(219, 30%, 18%) !important;
 }
 
+.text-info {
+    color:  hsl(176, 68%, 64%) !important;
+}
+
+
 nav a:hover {
     text-decoration: underline;
 }
@@ -28,17 +33,44 @@ nav a:hover {
 .btn {
     background-color: hsl(198, 60%, 50%) !important;
     border-radius: 20px !important;
+    /* width: 200px !important; */
 }
 
 .btn:hover {
     background-color: hsl(176, 68%, 64%) !important;
 }
 
-.main img {
-    /* width: 150px !important;
-    height: 140px !important; */
+.img {
 
-    width: 120px !important;
-    height: 110px !important;
+    width: 110px !important;
+    height: 100px !important;
 }
 
+
+.profile {
+    width: 40px;
+}
+
+.quotes {
+    z-index: 1 !important;
+    position: relative !important;
+    top: 10px;
+    left: -10px;
+}
+
+.crad-pic {
+    z-index: 2 !important;
+
+}
+
+.card-sub {
+    width: 80%;
+}
+
+.text-sub {
+    letter-spacing: 1.5px !important;
+}
+
+input {
+    border-radius: 20px !important;
+}
