@@ -3,6 +3,9 @@
 * {
     font-family: 'Open Sans', sans-serif;
     color: aliceblue !important;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .bg-primary {
@@ -28,6 +31,10 @@ nav a:hover {
 
 .img-topmain {
     width: 500px;
+}
+
+.logo {
+    max-width: 20%;
 }
 
 .btn {
